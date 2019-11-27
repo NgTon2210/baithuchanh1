@@ -1,0 +1,158 @@
+*
+{
+    margin:0px;
+    padding:0px;
+}
+header .header-top
+{
+    background: black;
+    padding: 10px 100px;
+}
+header .header-top .logo
+{
+    width: 150px;
+}
+header .logo img
+{
+    width: 100%;
+}
+header .header-top .menu ul
+{
+    display: flex;
+    padding-top: 15px;
+    justify-content: space-between;
+}
+header .header-top .menu ul li
+{
+    list-style: none;
+}
+header .header-top .menu ul li:hover 
+{
+    background: white;
+}
+header .header-top .menu ul li:hover a 
+{
+    color: black;
+}
+header .header-top .menu ul li a
+{
+    text-decoration: none;
+    color:white;
+    font-size: 15px;
+    text-transform: uppercase;
+}
+header .header-bottom
+{
+    background-image: url('../img/banner.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    padding: 250px 0px;
+}
+header .header-bottom h2
+{
+    font-size: 35px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: white;
+}
+header .header-bottom p
+{
+    color: white;
+    padding: 20px;
+}
+header .header-bottom a 
+{
+    padding: 20px 30px;
+    color: white;
+    background: red ;
+    text-transform: uppercase;
+}
+main .contain    
+{
+    padding: 30px;
+    background-image:linear-gradient(to right,#f1f0f6 ,#000709);
+    
+}
+main .contain .contain-left
+{
+    color: black;
+    
+}
+main .contain h3
+{
+    font-weight: bold;
+    margin: 10px;
+}
+p.title-left
+{
+    font-size: 24px;
+    font-style: italic;
+}
+p.title-right
+{
+    font-size: 24px;
+    font-style: italic;
+}
+main .contain .contain-right
+{
+    color:white;
+    
+}
+
+/*
+footer
+*/
+footer .wrapper
+{
+    padding: 20px 128px;
+    background: rgb(29, 28, 28);
+}
+footer .wrapper h3 
+{
+    text-transform: uppercase;
+    font-size: 13px;
+    color: white;
+    font-weight: bold;
+    padding-bottom: 15px;
+    border-bottom: 1px solid grey;
+}
+footer .wrapper ul li
+{
+    list-style: none;
+}
+footer .wrapper a
+{
+    font-size: 13px;
+    color: grey;
+}
+footer .social ul 
+{
+    display: flex;
+
+}
+footer .social ul li
+{
+    margin-right: 10px;
+    margin-top: 10px;
+}
+footer .social ul li a span
+{
+    border:1px solid black;
+    color: white;
+    background: black;
+    border-radius: 50%;
+}
+span.fb
+{
+    padding: 10px 15px;
+}
+span.tt, span.gg
+{
+    padding: 10px;
+}
+
+
+
+
+
